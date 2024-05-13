@@ -38,8 +38,8 @@ function validerTache (valider){
 function displayMenu() {
     console.log("1. Afficher votre ToDo list");
     console.log("2. Ajouter une tache");
-    console.log("3. Ecrivez le nom de la tache a supprimer : ");
-    console.log("4. Ecrivez le nom de la tache a valider : ");
+    console.log("3. Supprimer une tache : ");
+    console.log("4. Modifier une tache : ");
     console.log("5. Quitter");
 
     rl.question("Que voulez-vous faire ? ", function (choix) {
@@ -64,14 +64,14 @@ function displayMenu() {
                 })
                 break;
             case "3":
-                rl.question("Quelle tache voulez-vous supprimer ?", function(supprimer){
+                rl.question("Ecrivez le nom de la tache que vous voulez supprimer : ", function(supprimer){
                     supprimerTache(supprimer);
                     console.log(data);
                     displayMenu();
                 })
                 break;
             case "4":
-                rl.question("Quelle tache voulez-vous validé ?", function(valider){
+                rl.question("Ecrivez le nom de la tache que vous voulez valider : ", function(valider){
                     validerTache(valider);
                     console.log(data);
                     displayMenu();
