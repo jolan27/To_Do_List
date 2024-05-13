@@ -38,8 +38,8 @@ function validerTache (valider){
 function displayMenu() {
     console.log("1. Afficher votre ToDo list");
     console.log("2. Ajouter une tache");
-    console.log("3. Supprimer une tache");
-    console.log("4. valider une tache");
+    console.log("3. Ecrivez le nom de la tache a supprimer : ");
+    console.log("4. Ecrivez le nom de la tache a valider : ");
     console.log("5. Quitter");
 
     rl.question("Que voulez-vous faire ? ", function (choix) {
