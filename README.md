@@ -3,7 +3,7 @@ Voici mon application pour gerer une liste de tâches
 
 ## Utilisation
 -Lancer l'application  
--Un menue s'affiche  
+-Un menu s'affiche  
 -Sélectionner la tache que vous voulez en tapant son numéro  
 -Suiver les instrucions
 
