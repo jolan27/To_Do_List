@@ -13,4 +13,4 @@ Cette application peut :
 -Ajouter une tâche a votre todo list  
 -Supprimer une tâche de votre todo list  
 -Valider une tâche de votre todo list  
--Et enfin quitter l'application  
+-Et enfin quitter l'application
